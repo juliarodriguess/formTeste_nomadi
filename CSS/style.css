@@ -1,0 +1,50 @@
+body {
+    font-family: "Open Sans Condensed", sans-serif;
+    background-color:#048e99ff;
+}
+
+.formShipping {
+    display:flex;
+    flex-direction: column;
+    height: 25em;
+    justify-content: space-around;
+    width: 80%;
+    align-items: center;
+    background-color: whitesmoke;
+    margin: 10em auto;
+    border-radius: 3%;
+}
+
+.origin {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 60%;
+    width: 80%;
+}
+
+.adressOrigin {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+}
+
+.button {
+    display: flex;
+    background-color:rgba(127, 204, 247, 1);
+    width: 20%;
+    justify-content: center;
+    color: white;
+    border-radius: 25px;
+    font-size: 15pt;
+    justify-items: flex-end;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+input {
+    height: 2em;
+}
+
